@@ -9,6 +9,7 @@ Warning: This project is a work in progress and we haven't verified if logo repl
 Xiaomi Pad 5 stores it's boot logo on the imagefv partition. You can retrieve it by first entering `adb shell` on a rooted device, then enter the following command:
 
 `su -c dd if=/dev/block/by-name/imagefv_a of=/sdcard/imagefv_a.img` for A slot
+
 `su -c dd if=/dev/block/by-name/imagefv_a of=/sdcard/imagefv_a.img` for B slot
 
 Note: Please double check that that **if** points to the block device, NOT **of**!
@@ -16,6 +17,7 @@ Note: Please double check that that **if** points to the block device, NOT **of*
 Then you can **exit** the ADB shell and pull each file with the following commands:
 
 `adb pull /sdcard/imagefv_a.img` for A slot
+
 `adb pull /sdcard/imagefv_b.img` for B slot
 
 Next you have to download something called UEFITool. You can find it [here](https://github.com/LongSoft/UEFITool/releases). Make sure you download the one labelled "UEFITool" and not something else.
