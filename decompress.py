@@ -3,7 +3,8 @@
 #
 #    .
 #   /|\    While it is completely safe to extract the logo.img from your device, caution should
-#  /_._\   be exercised when attempting to replace the logo, since it's currently untested.
+#  /_._\   be exercised when attempting to replace the logo, since a successful replacement hasn't
+#          been done yet.
 #
 # Status: Check README.md on how to get logo.img from your device.
 #

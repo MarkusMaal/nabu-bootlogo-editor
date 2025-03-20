@@ -2,7 +2,7 @@
 
 When your tablet starts up, it displays a Xiaomi Mi and "Powered by android" logo. This project attempts to study how the logo is stored and potentially how to replace it.
 
-Warning: This project is a work in progress and we haven't verified if logo replacement is actually possible. Please do not attempt to replace the logo unless you are willing to potentially brick your device and have the tools to reflash the device if you do end up bricking it!
+Warning: This project is a work in progress and we haven't determined if logo replacement is actually possible.
 
 ## Extraction
 

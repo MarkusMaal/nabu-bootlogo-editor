@@ -6,8 +6,8 @@
 #  /_._\   which is risky and can brick your device if done incorrectly!
 #
 # Status: Will produce identical file to factory logo.img if default images are used. Logo
-#         replacement is untested and will need to be verified by people who are willing to
-#         risk bricking their devices.
+#         replacement may be possible, but currently no way of correctly modifying the contents
+#         of imagefv.elf has been found.
 #
 
 import gzip
