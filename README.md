@@ -47,3 +47,5 @@ This will create a logo_new.img file, which you can use for repacking and ultima
 I will not go into how to use UEFITool to repack the modified logo.img into imagefv, since it's potentially dangerous and I'm not confident in the exact steps you'd need to take myself.
 
 I tried flashing a modified image to splash partition (which is empty normally and there is no logo partition), but it doesn't seem to work unfortunately, so the only way seems to be to modify imagefv partition directly.
+
+UPDATE: I tried replacing imagefv, but no luck unfortunately. The device will not be bricked by flashing a borked image, but instead display default Qualcomm boot screen if you try to repack with UEFITool (we have determined that probably some other tool needs to be used for a successful repack). However, I was able to restore an older logo by flashing imagefv.elf from an older firmware image (which has a slightly different startup screen and the old fastboot screen with a bunny), so this gives me hope.
